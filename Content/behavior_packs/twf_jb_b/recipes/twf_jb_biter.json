@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:biter"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:stone_sword"
+            },
+            "*": {
+                "item": "twf_jb:fang"
+            }
+        },
+        "pattern": [
+            "***",
+            "*a*",
+            "***"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:biter",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "twf_jb:mouth_guard",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "twf_jb:mouth_guard"
+            },
+            "minecraft:damage": 1,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:hand_equipped": true,
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 1
+            },
+            "minecraft:durability": {
+                "max_durability": 42
+            },
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "twf_jb:canine"
+                        ],
+                        "repair_amount": 25
+                    },
+                    {
+                        "items": [
+                            "twf_jb:fang"
+                        ],
+                        "repair_amount": 25
+                    },
+                    {
+                        "items": [
+                            "twf_jb:incisor"
+                        ],
+                        "repair_amount": 25
+                    },
+                    {
+                        "items": [
+                            "twf_jb:molar"
+                        ],
+                        "repair_amount": 25
+                    },
+                    {
+                        "items": [
+                            "twf_jb:premolar"
+                        ],
+                        "repair_amount": 25
+                    },
+                    {
+                        "items": [
+                            "twf_jb:tooth"
+                        ],
+                        "repair_amount": 25
+                    },
+					{
+                        "items": [
+                            "twf_jb:tooth_powder"
+                        ],
+                        "repair_amount": 25
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_tool",
+                    "twf_jb:is_tooth_tool"
+                ]
+            }
+        }
+    }
+}

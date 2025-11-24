@@ -1,0 +1,35 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"twf_jb:chatter": {
+			"textures": "textures/twf/jb/blocks/chatter.png"
+		},
+		"twf_jb:chatter_molar": {
+			"textures": "textures/twf/jb/blocks/chatter_molar.png"
+		},
+		"twf_jb:chatter_canine": {
+			"textures": "textures/twf/jb/blocks/chatter_canine.png"
+		},
+		"twf_jb:chatter_fang": {
+			"textures": "textures/twf/jb/blocks/chatter_fang.png"
+		},
+		"twf_jb:chatter_gold": {
+			"textures": "textures/twf/jb/blocks/chatter_gold.png"
+		},
+		"twf_jb:chatter_incisor": {
+			"textures": "textures/twf/jb/blocks/chatter_incisor.png"
+		},
+		"twf_jb:chatter_premolar": {
+			"textures": "textures/twf/jb/blocks/chatter_premolar.png"
+		},
+		"twf_jb:chatter_rotten": {
+			"textures": "textures/twf/jb/blocks/chatter_rotten.png"
+		},
+		"twf_jb:chatter_tusk": {
+			"textures": "textures/twf/jb/blocks/chatter_tusk.png"
+		}
+	}
+}

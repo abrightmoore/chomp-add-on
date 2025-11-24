@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf_jb:fang_pitchfork_projectile",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/twf/jb/items/fang_pitchfork"
+			},
+			"geometry": {
+				"default": "geometry.twf_jb_spear"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

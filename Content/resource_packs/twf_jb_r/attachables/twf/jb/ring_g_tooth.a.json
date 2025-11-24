@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "twf_jb:ring_gold_tooth",
+			"item": { "twf_jb:ring_gold_tooth": "query.is_owner_identifier_any('minecraft:player')" },
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/twf/jb/items/ring_tooth",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.twf_jb_ring"
+			},
+			"animations": {
+				"hold_first_person": "animate.hold_first_person",
+				"hold_third_person": "animate.hold_third_person"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"hold_first_person": "context.is_first_person == 1.0"
+					},
+					{
+						"hold_third_person": "context.is_first_person == 0.0"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.item_default"]			
+		}
+	}
+}

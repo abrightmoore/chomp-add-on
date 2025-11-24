@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:rod_of_teeth"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:iron_bars"
+            },
+            "*": {
+                "tag": "twf_jb:is_tooth"
+            }
+        },
+        "pattern": [
+            "*a*",
+            "*a*",
+            "*a*"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:rod_of_teeth",
+            "count": 1
+        }
+    }
+}

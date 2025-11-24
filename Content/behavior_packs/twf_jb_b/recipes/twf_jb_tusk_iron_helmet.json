@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:tusk_iron_helmet"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:iron_helmet"
+            },
+            {
+                "item": "twf_jb:tusk",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "twf_jb:tusk_iron_helmet"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

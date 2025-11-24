@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:jaw_saw"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:stick"
+            },
+            "*": {
+                "item": "twf_jb:jawbone"
+            }
+        },
+        "pattern": [
+            "#",
+            "*"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:jaw_saw",
+            "count": 1
+        }
+    }
+}

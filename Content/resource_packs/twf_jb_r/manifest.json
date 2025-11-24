@@ -1,0 +1,28 @@
+{
+	"dependencies": [
+		{
+			"uuid": "2cae2c1b-28e5-7488-7ef4-29987bb33980",
+			"version": [1, 0, 0]
+		}
+	],
+	"format_version": 2,
+	"header": {
+		"description": "pack.description",
+		"min_engine_version": [1, 21, 62],
+		"name": "pack.name",
+		"uuid": "848b264f-e742-df31-5bf3-f5c8208f4e43",
+		"version": [1, 0, 0],
+		"pack_scope": "world"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "8a68d3e7-7087-3968-016a-62f97259ed63",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"authors": ["The World Foundry"],
+		"product_type": "addon"
+	}
+}

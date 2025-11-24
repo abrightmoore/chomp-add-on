@@ -1,0 +1,208 @@
+{
+	"texture_data": {
+		"twf_jb:chomp_guide": {
+			"textures": "textures/twf/jb/items/chomp_guide.png"
+		},		
+		"twf_jb:ripper": {
+			"textures": "textures/twf/jb/items/ripper.png"
+		},
+		"twf_jb:jaw_saw": {
+			"textures": "textures/twf/jb/items/jaw_saw.png"
+		},
+		"twf_jb:molar_mace": {
+			"textures": "textures/twf/jb/items/molar_mace.png"
+		},
+		"twf_jb:incisor_scimitar": {
+			"textures": "textures/twf/jb/items/incisor_scimitar.png"
+		},
+		"twf_jb:masticator": {
+			"textures": "textures/twf/jb/items/masticator.png"
+		},
+		"twf_jb:premolar_club": {
+			"textures": "textures/twf/jb/items/premolar_club.png"
+		},
+		"twf_jb:chew_blade": {
+			"textures": "textures/twf/jb/items/chew_blade.png"
+		},
+		"twf_jb:mouth_guard": {
+			"textures": "textures/twf/jb/items/mouth_guard.png"
+		},
+		"twf_jb:dental_halberd": {
+			"textures": "textures/twf/jb/items/dental_halberd.png"
+		},
+		"twf_jb:tooth_shield": {
+			"textures": "textures/twf/jb/items/tooth_shield.png"
+		},
+		"twf_jb:ring_gold_incisor": {
+			"textures": "textures/twf/jb/items/ring_incisor.png"
+		},
+		"twf_jb:ring_gold_molar": {
+			"textures": "textures/twf/jb/items/ring_molar.png"
+		},
+		"twf_jb:ring_gold_premolar": {
+			"textures": "textures/twf/jb/items/ring_premolar.png"
+		},
+		"twf_jb:ring_gold_tooth": {
+			"textures": "textures/twf/jb/items/ring_tooth.png"
+		},
+		"twf_jb:ring_gold_canine": {
+			"textures": "textures/twf/jb/items/ring_canine.png"
+		},
+		"twf_jb:fang_pitchfork": {
+			"textures": "textures/twf/jb/items/fang_pitchfork.png"
+		},
+		"twf_jb:incisor_spear": {
+			"textures": "textures/twf/jb/items/incisor_spear.png"
+		},
+		"twf_jb:molar_breaker": {
+			"textures": "textures/twf/jb/items/molar_breaker.png"
+		},
+		"twf_jb:tusk_longblade": {
+			"textures": "textures/twf/jb/items/tusk_longblade.png"
+		},
+		"twf_jb:chomp_crusher": {
+			"textures": "textures/twf/jb/items/chomp_crusher.png"
+		},
+		"twf_jb:tusk_axe": {
+			"textures": "textures/twf/jb/items/tusk_axe.png"
+		},
+		"twf_jb:incisor_hoe": {
+			"textures": "textures/twf/jb/items/incisor_hoe.png"
+		},
+		"twf_jb:incisor_double_axe": {
+			"textures": "textures/twf/jb/items/incisor_double_axe.png"
+		},
+		"twf_jb:incisor_triple_axe": {
+			"textures": "textures/twf/jb/items/incisor_triple_axe.png"
+		},
+		"twf_jb:fang_longsword": {
+			"textures": "textures/twf/jb/items/fang_longsword.png"
+		},
+		"twf_jb:incisor_shortsword": {
+			"textures": "textures/twf/jb/items/incisor_shortsword.png"
+		},
+		"twf_jb:tooth_broadsword": {
+			"textures": "textures/twf/jb/items/tooth_broadsword.png"
+		},
+		"twf_jb:molar_sledgehammer": {
+			"textures": "textures/twf/jb/items/molar_sledgehammer.png"
+		},
+		"twf_jb:rod_of_teeth": {
+			"textures": "textures/twf/jb/items/rod_of_teeth.png"
+		},
+		"twf_jb:chomper": {
+			"textures": "textures/twf/jb/items/chomper.png"
+		},
+		"twf_jb:carver": {
+			"textures": "textures/twf/jb/items/carver.png"
+		},
+		"twf_jb:biter": {
+			"textures": "textures/twf/jb/items/biter.png"
+		},
+		"twf_jb:snap_sickle": {
+			"textures": "textures/twf/jb/items/snap_sickle.png"
+		},
+		"twf_jb:canine_claymore": {
+			"textures": "textures/twf/jb/items/canine_claymore.png"
+		},
+		"twf_jb:cleaver": {
+			"textures": "textures/twf/jb/items/cleaver.png"
+		},
+		"twf_jb:harpoon": {
+			"textures": "textures/twf/jb/items/harpoon.png"
+		},
+		"twf_jb:renderer": {
+			"textures": "textures/twf/jb/items/renderer.png"
+		},
+		"twf_jb:gnaw": {
+			"textures": "textures/twf/jb/items/gnaw.png"
+		},
+		"twf_jb:canine_awl": {
+			"textures": "textures/twf/jb/items/canine_awl.png"
+		},
+		"twf_jb:bucket_of_teeth": {
+			"textures": "textures/twf/jb/items/bucket_of_teeth.png"
+		},
+		"twf_jb:tooth_candle": {
+			"textures": "textures/twf/jb/items/tooth_candle.png"
+		},
+		"twf_jb:tooth_ink": {
+			"textures": "textures/twf/jb/items/tooth_ink.png"
+		},
+		"twf_jb:tooth_powder": {
+			"textures": "textures/twf/jb/items/tooth_powder.png"
+		},
+		"twf_jb:hourglass_of_teeth": {
+			"textures": "textures/twf/jb/items/hourglass_of_teeth.png"
+		},
+		"twf_jb:bone_saw": {
+			"textures": "textures/twf/jb/items/bone_saw.png"
+		},
+		"twf_jb:tooth_extractor": {
+			"textures": "textures/twf/jb/items/extractor.png"
+		},		
+		"twf_jb:jawbone": {
+			"textures": "textures/twf/jb/items/jawbone.png"
+		},		
+		"twf_jb:fang_dirk": {
+			"textures": "textures/twf/jb/items/fang_dirk.png"
+		},
+		"twf_jb:tusk_dirk": {
+			"textures": "textures/twf/jb/items/tusk_dirk.png"
+		},
+		"twf_jb:spiked_carpet": {
+			"textures": "textures/twf/jb/items/spiked_carpet.png"
+		},
+		"twf_jb:tusk_iron_helmet": {
+			"textures": "textures/twf/jb/items/tusk_iron_helmet.png"
+		},
+		"twf_jb:canine_7_tooth_iron_sword": {
+			"textures": "textures/twf/jb/items/canine_7_tooth_iron_sword.png"
+		},
+		"twf_jb:canine_6_tooth_iron_sword": {
+			"textures": "textures/twf/jb/items/canine_6_tooth_iron_sword.png"
+		},
+		"twf_jb:canine_5_tooth_iron_sword": {
+			"textures": "textures/twf/jb/items/canine_5_tooth_iron_sword.png"
+		},
+		"twf_jb:canine_4_tooth_iron_sword": {
+			"textures": "textures/twf/jb/items/canine_4_tooth_iron_sword.png"
+		},
+		"twf_jb:canine_3_tooth_iron_sword": {
+			"textures": "textures/twf/jb/items/canine_3_tooth_iron_sword.png"
+		},
+		"twf_jb:canine_2_tooth_iron_sword": {
+			"textures": "textures/twf/jb/items/canine_2_tooth_iron_sword.png"
+		},
+		"twf_jb:canine_1_tooth_iron_sword": {
+			"textures": "textures/twf/jb/items/canine_1_tooth_iron_sword.png"
+		},
+		"twf_jb:tusk": {
+			"textures": "textures/twf/jb/items/tusk.png"
+		},
+		"twf_jb:fang": {
+			"textures": "textures/twf/jb/items/fang.png"
+		},
+		"twf_jb:molar": {
+			"textures": "textures/twf/jb/items/molar.png"
+		},
+		"twf_jb:premolar": {
+			"textures": "textures/twf/jb/items/premolar.png"
+		},
+		"twf_jb:canine": {
+			"textures": "textures/twf/jb/items/canine.png"
+		},
+		"twf_jb:incisor": {
+			"textures": "textures/twf/jb/items/incisor.png"
+		},
+		"twf_jb:gold_tooth": {
+			"textures": "textures/twf/jb/items/gold_tooth.png"
+		},
+		"twf_jb:rotten_tooth": {
+			"textures": "textures/twf/jb/items/rotten_tooth.png"
+		},
+		"twf_jb:tooth": {
+			"textures": "textures/twf/jb/items/tooth.png"
+		}
+	}
+}

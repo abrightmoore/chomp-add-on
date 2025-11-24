@@ -1,0 +1,204 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "twf_jb:chatter_canine",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:physics": {
+                "has_gravity": true,
+                "has_collision": true
+            },
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:follow_range": {
+                "value": 64
+            },
+            "minecraft:push_through": {
+                "value": 1
+            },
+            "minecraft:movement": {
+                "value": 0.25
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {},
+            "minecraft:navigation.walk": {
+                "avoid_water": true
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 3,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "irongolem",
+                    "mob"
+                ]
+            },
+            "minecraft:nameable": {},
+            "minecraft:health": {
+                "value": 16,
+                "max": 16
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": {
+                            "test": "in_lava",
+                            "subject": "self",
+                            "operator": "==",
+                            "value": true
+                        },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:attack": {
+                "damage": {
+                    "range_min": 4,
+                    "range_max": 12
+                }
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "fall",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:knockback_resistance": {
+                "value": 0.1
+            },
+            "minecraft:leashable": {
+                "soft_distance": 4,
+                "hard_distance": 6,
+                "max_distance": 10
+            },
+            "minecraft:balloonable": {
+                "mass": 0.1
+            },
+            "minecraft:behavior.target_when_pushed": {
+                "priority": 1,
+                "percent_chance": 5,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "monster"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "operator": "!=",
+                                    "value": "creeper"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "minecraft:behavior.melee_box_attack": {
+                "priority": 1,
+                "track_target": true
+            },
+            "minecraft:behavior.move_towards_target": {
+                "priority": 2,
+                "speed_multiplier": 0.9,
+                "within_radius": 32
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 3,
+                "must_reach": true,
+                "must_see": true,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "monster"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "operator": "!=",
+                                    "value": "creeper"
+                                }
+                            ]
+                        },
+                        "within_default": 10
+                    },
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "hoglin"
+                                },
+                                {
+                                    "test": "is_difficulty",
+                                    "operator": "!=",
+                                    "value": "peaceful"
+                                }
+                            ]
+                        },
+                        "max_dist": 16
+                    },
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "zoglin"
+                                },
+                                {
+                                    "test": "is_difficulty",
+                                    "operator": "!=",
+                                    "value": "peaceful"
+                                }
+                            ]
+                        },
+                        "max_dist": 16
+                    }
+                ]
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 2,
+                "entity_types": {
+                    "filters": {
+                        "test": "is_family",
+                        "subject": "other",
+                        "operator": "!=",
+                        "value": "creeper"
+                    }
+                }
+            },
+            "minecraft:persistent": {}
+        },
+        "events": {
+            "twf_jb:despawn": {
+                "add": {
+                    "component_groups": [
+                        "twf_jb:event_despawn"
+                    ]
+                }
+            }
+        },
+        "component_groups": {
+            "twf_jb:event_despawn": {
+                "minecraft:instant_despawn": {}
+            }
+        }
+    }
+}

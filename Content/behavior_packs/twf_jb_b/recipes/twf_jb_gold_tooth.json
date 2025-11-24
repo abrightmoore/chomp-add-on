@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:gold_tooth"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:gold_nugget"
+            },
+            {
+                "item": "twf_jb:rotten_tooth"
+            }
+        ],
+        "result": {
+            "item": "twf_jb:gold_tooth"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

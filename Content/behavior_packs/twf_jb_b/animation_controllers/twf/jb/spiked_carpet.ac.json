@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.twf_jb_spiked_carpet.life": {
+			"initial_state": "start",
+			"states": {
+				"start": {
+					"on_entry": [
+						"/damage @e[r=0.5,type=!twf_jb:spiked_carpet] 1 thorns entity @s"
+					],
+					"transitions": [
+						{
+							"active": "true"
+						}
+					]
+				},
+				"active": {
+					"on_entry": [
+						"v.random_value = math.random_integer(0, 10000);"
+					],					
+					"transitions": [
+						{
+							"popped": "v.random_value == 42"
+						},
+						{
+							"start": "true"
+						}
+					]
+				},
+				"popped": {
+					"on_entry": [
+						"/execute as @s at @s run playsound random.pop @a[r=32] ~ ~ ~ 1000 1.0 10",
+						"/event entity @s twf_jb:despawn"
+					],
+					"transitions": [
+						{
+							"dead": "!q.is_alive"
+						}
+					]
+				},
+				"dead": {
+
+				}				
+			}
+		}
+	}
+}

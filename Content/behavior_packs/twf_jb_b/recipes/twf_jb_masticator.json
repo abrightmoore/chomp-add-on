@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:masticator"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:iron_bars"
+            },
+            "*": {
+                "item": "twf_jb:molar"
+            }
+        },
+        "pattern": [
+            "*a",
+            "*a",
+            " a "
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:masticator",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:chatter_tooth"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:piston"
+            },
+            {
+                "item": "twf_jb:tooth",
+                "count": 8
+            }
+        ],
+        "result": {
+            "item": "twf_jb:chatter"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

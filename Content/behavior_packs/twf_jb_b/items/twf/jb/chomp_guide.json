@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "twf_jb:chomp_guide_book",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "twf_jb:chomp_guide"
+            },
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:hand_equipped": true,
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_tool",
+                    "twf_jb:is_tooth_tool"
+                ]
+            }
+        }
+    }
+}

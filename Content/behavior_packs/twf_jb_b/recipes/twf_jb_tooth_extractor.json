@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:tooth_extractor"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:stick"
+            },
+            "*": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "pattern": [
+            "* *",
+            " * ",
+            " # "
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:tooth_extractor",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "twf_jb:canine",
+              "name": "twf_jb:itemGroup.name.teeth"
+            },
+            "items": [
+              "twf_jb:incisor",
+              "twf_jb:canine",
+              "twf_jb:premolar",
+			  "twf_jb:molar",
+			  "twf_jb:tooth",
+			  "twf_jb:gold_tooth",
+			  "twf_jb:tusk",
+			  "twf_jb:fang",
+			  "twf_jb:rotten_tooth",
+			  "twf_jb:bucket_of_teeth"
+            ]
+          }
+        ]
+      },
+		{
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "twf_jb:ring_gold_canine",
+              "name": "twf_jb:itemGroup.name.rings"
+            },
+            "items": [
+              "twf_jb:ring_gold_incisor",
+              "twf_jb:ring_gold_canine",
+              "twf_jb:ring_gold_premolar",
+			  "twf_jb:ring_gold_molar",
+			  "twf_jb:ring_gold_tooth"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

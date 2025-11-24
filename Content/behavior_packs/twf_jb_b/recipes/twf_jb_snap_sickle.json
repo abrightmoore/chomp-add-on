@@ -1,0 +1,30 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:snap_sickle"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:stick"
+            },
+            "*": {
+                "item": "twf_jb:fang"
+            }
+        },
+        "pattern": [
+            "* ",
+            " a"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:snap_sickle",
+            "count": 1
+        }
+    }
+}

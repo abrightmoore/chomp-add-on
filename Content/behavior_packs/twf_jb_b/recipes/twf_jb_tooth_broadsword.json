@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:tooth_broadsword"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:stick"
+            },
+            "a": {
+                "tag": "twf_jb:is_tooth"
+            }
+        },
+        "pattern": [
+            "aaa",
+            "aaa",
+            " # "
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:tooth_broadsword",
+            "count": 1
+        }
+    }
+}

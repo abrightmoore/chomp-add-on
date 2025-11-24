@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf_jb:spiked_carpet",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/twf/jb/entity/spiked_carpet"
+			},
+			"geometry": {
+				"default": "geometry.twf_jb_spiked_carpet"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture" : "twf_jb:spiked_carpet"
+			}
+		}
+	}
+}

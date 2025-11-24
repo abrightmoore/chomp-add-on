@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:sugar_tusk_rotten_tooth"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "twf_jb:tusk"
+            }
+        ],
+        "result": {
+            "item": "twf_jb:rotten_tooth"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

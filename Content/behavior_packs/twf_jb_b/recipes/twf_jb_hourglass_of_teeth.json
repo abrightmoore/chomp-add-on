@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_jb:hourglass_of_teeth"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:glass"
+            },
+            "*": {
+                "item": "twf_jb:tooth_powder"
+            }
+        },
+        "pattern": [
+            "#",
+            "*",
+            "#"
+        ],
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "twf_jb:hourglass_of_teeth",
+            "count": 1
+        }
+    }
+}

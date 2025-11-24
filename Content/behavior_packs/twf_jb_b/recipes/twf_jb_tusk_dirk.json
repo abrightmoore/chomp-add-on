@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:tusk_dirk"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "twf_jb:tusk"
+            }
+        ],
+        "result": {
+            "item": "twf_jb:tusk_dirk"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

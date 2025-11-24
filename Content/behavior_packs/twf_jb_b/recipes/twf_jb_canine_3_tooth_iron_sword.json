@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:canine_3_tooth_iron_sword"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:iron_sword"
+            },
+            {
+                "item": "twf_jb:canine"
+            },
+            {
+                "item": "twf_jb:canine"
+            },
+            {
+                "item": "twf_jb:canine"
+            }
+        ],
+        "result": {
+            "item": "twf_jb:canine_3_tooth_iron_sword"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:fang_dirk"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "twf_jb:fang"
+            }
+        ],
+        "result": {
+            "item": "twf_jb:fang_dirk"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

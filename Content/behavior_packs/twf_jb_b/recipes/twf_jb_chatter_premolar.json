@@ -1,0 +1,46 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_jb:chatter_premolar"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:piston"
+            },
+            {
+                "item": "twf_jb:premolar"
+            },
+            {
+                "item": "twf_jb:premolar"
+            },
+            {
+                "item": "twf_jb:premolar"
+            },
+            {
+                "item": "twf_jb:premolar"
+            },
+            {
+                "item": "twf_jb:premolar"
+            },
+            {
+                "item": "twf_jb:premolar"
+            },
+            {
+                "item": "twf_jb:premolar"
+            },
+            {
+                "item": "twf_jb:premolar"
+            }
+        ],
+        "result": {
+            "item": "twf_jb:chatter_premolar"
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        }
+    }
+}

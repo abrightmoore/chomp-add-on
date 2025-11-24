@@ -1,0 +1,64 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "twf_jb:spiked_carpet",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+            "animations": {
+                "lifecycle": "controller.animation.twf_jb_spiked_carpet.life"
+            },
+            "scripts": {
+                    "animate": [
+                        "lifecycle"
+                    ]
+            }
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},			
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+                "width": 0.0,
+                "height": 0.0
+			},
+			"minecraft:persistent": {
+			},
+	        "minecraft:nameable": {
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4.0,
+				"hard_distance": 6.0,
+				"max_distance": 10.0
+			}
+		},
+		"events": {
+            "twf_jb:despawn": {
+                "add": {
+                    "component_groups": [
+                        "twf_jb:event_despawn"
+                    ]
+                }
+            }
+        },
+        "component_groups": {
+            "twf_jb:event_despawn": {
+                "minecraft:instant_despawn": {}
+            }
+        }
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twf_jb_tusk_helmet",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "helmet",
+					"parent": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "'head'",
+					"cubes": [
+						{"origin": [-4, 0, -4], "size": [8, 8, 8], "inflate": 1, "uv": [0, 0]},
+						{
+							"origin": [-4, 0, -9],
+							"size": [8, 2, 4],
+							"uv": {
+								"north": {"uv": [0, 6], "uv_size": [8, 2]},
+								"east": {"uv": [0, 4], "uv_size": [4, 2]},
+								"west": {"uv": [4, 4], "uv_size": [4, 2]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

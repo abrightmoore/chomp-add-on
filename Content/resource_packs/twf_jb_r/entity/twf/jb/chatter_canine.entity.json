@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf_jb:chatter_canine",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/twf/jb/blocks/chatter_canine"
+			},
+			"geometry": {
+				"default": "geometry.twf_jb_chatter"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"base_pose": "animation.twf_jb_chatter.base_pose",
+                "walk": "animation.twf_jb_chatter.walk"
+			},
+			"scripts": {
+				"initialize" : [
+					"variable.py = 1;"
+				],
+				"pre_animation": [
+					"variable.py = 1 + Math.random(0,8);"
+				],				
+				"animate": [
+                    {
+                        "walk" : "query.modified_move_speed*4"
+                    }
+                ]
+			},
+			"sound_effects": {
+				"click": "step.bone_block"
+			}	
+		}
+	}
+}

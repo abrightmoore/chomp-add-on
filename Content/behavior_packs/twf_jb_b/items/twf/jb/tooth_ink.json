@@ -1,0 +1,43 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "twf_jb:tooth_ink",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "twf_jb:tooth_ink"
+            },
+            "minecraft:damage": 2,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:hand_equipped": true,
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 5
+            },
+            "minecraft:durability": {
+                "max_durability": 100
+            },
+			"minecraft:repairable": {
+                "repair_items": [
+					{
+                        "items": [
+                            "twf_jb:tooth_powder"
+                        ],
+                        "repair_amount": 25
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_tool",
+                    "twf_jb:is_tooth_tool"
+                ]
+            }
+        }
+    }
+}
